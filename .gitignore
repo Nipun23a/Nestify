@@ -1,0 +1,48 @@
+# Node.js (for backend and frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Python (for the backend)
+*.pyc
+__pycache__/
+env/
+venv/
+*.pyo
+*.pyd
+*.db
+
+# Next.js (frontend)
+.next/
+out/
+build/
+
+# Logs
+logs/
+*.log
+*.tgz
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+
+# Other files
+coverage/
